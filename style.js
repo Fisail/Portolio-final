@@ -25,7 +25,7 @@ $(document).ready(function () {
 });
 
 window.addEventListener("scroll", () => {
-  if (window.scrollY > 20) {
+  if (window.scrollY > 20){
     liste.classList.add("visibleY");
   } else {
     liste.classList.remove("visibleY");

@@ -1,0 +1,42 @@
+
+
+
+
+.second_article{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: linear-gradient(rgb(195, 185, 196), white);
+    height: 100vh;
+}
+
+.second_article  .titre{
+    margin: 120px 0 0 20px;
+    font-size: 90px;
+}
+
+
+.second_article .texte  {
+    margin: 100px 0 0 40px;
+    font-size: 30px;
+    color: rgb(27, 21, 42);
+}
+
+.second_article  span{
+
+    color: rgb(119, 31, 163);
+    font-weight: 800;
+}
+.container_image .sous_container{
+    background-color: white;
+    height: 350px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.container_image .sous_container img{
+
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+}

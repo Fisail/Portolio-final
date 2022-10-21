@@ -1,2 +1,17 @@
 @import url("CSS/header.css");
 @import url("CSS/premiere_partie.css");
+@import url("CSS/seconde_partie.css");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("RobotoMono-VariableFont_wght.ttf");
+}
+
+

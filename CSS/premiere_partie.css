@@ -1,16 +1,3 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
-}
-
-@font-face {
-    font-family: "Roboto";
-    src: url("RobotoMono-VariableFont_wght.ttf");
-}
-
-
 
 
 /*Première Partie*/
@@ -68,11 +55,6 @@
     font-weight: 0;
     color: white;
     cursor: pointer;
-}
-.second_article{
-    
-    background: linear-gradient(rgb(195, 185, 196), white);
-    height: 100vh;
 }
 
 #sphere{
