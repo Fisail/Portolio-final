@@ -70,7 +70,9 @@
     cursor: pointer;
 }
 .second_article{
-    background-color: black;
+    
+    background: linear-gradient(rgb(195, 185, 196), white);
+    height: 100vh;
 }
 
 #sphere{
