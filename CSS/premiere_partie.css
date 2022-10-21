@@ -13,7 +13,7 @@
 
     height: 1000px;
     margin-left:50vh;
-    transform: translateY(-20%);
+    transform: translateY(-15%);
 }
 
 
@@ -60,7 +60,7 @@
 #sphere{
 
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 65%;
     height: 250px;
 }

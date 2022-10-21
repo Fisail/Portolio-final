@@ -25,9 +25,25 @@ $(document).ready(function () {
 });
 
 window.addEventListener("scroll", () => {
-  if (window.scrollY > 20){
+  if (window.scrollY > 20) {
     liste.classList.add("visibleY");
   } else {
     liste.classList.remove("visibleY");
   }
 });
+
+const first_container = document.querySelector(".first_container");
+const second_container = document.querySelector(".second_container");
+
+console.log(first_container);
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 200) {
+    first_container.classList.add("visible0");
+    second_container.classList.add("visible1");
+  } else {
+    first_container.classList.remove("visible0");
+    second_container.classList.remove("visible1");
+  }
+});
+
+

@@ -14,4 +14,12 @@
     src: url("RobotoMono-VariableFont_wght.ttf");
 }
 
+@font-face {
+    font-family: "Raleway";
+    src: url("Raleway-VariableFont_wght.ttf");
+}
 
+@font-face {
+    font-family: "Alegreya";
+    src: url("Alegreya-VariableFont_wght.ttf");
+}
