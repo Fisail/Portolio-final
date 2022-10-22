@@ -1,26 +1,176 @@
+
 .third_article{
     position: relative;
     background:linear-gradient(white, rgb(221, 213, 221));
-    height: 110vh;
+    height: 500vh;
     overflow-y: hidden;
 }
 
 .third_article  #titre{
-    margin: 150px 0 0 40px;
+    margin: 200px 0 0 40px;
     font-size: 75px;
 }
 
 
-.third_article .texte  {
-    margin: 100px 0 0 40px;
-    font-size: 25px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(27, 21, 42);
-}
 
 .third_article  span{
 
     color: rgb(119, 31, 163);
     font-weight: 800;
+}
+
+.box{
+    position: relative;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    border: 2px solid purple;
+    width: 300px;
+    height: 350px;
+    overflow-y: hidden;
+    opacity: 0;
+}
+
+
+svg{
+    height: 250px;
+    width: 650px;
+}
+
+/*Côté Front-end */
+
+svg circle{
+    fill: none;
+    stroke: white;
+    stroke-width: 10px;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+    animation: circle 7s forwards;
+
+}
+
+svg .circle2{
+    fill: none;
+    stroke: white;
+    stroke-width: 10px;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+    animation: circle2 7s forwards;
+
+}
+
+
+svg .circle3{
+    fill: none;
+    stroke: white;
+    stroke-width: 10px;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+    animation: circle3 7s forwards;
+
+}
+
+
+
+@keyframes circle {
+    to{
+        stroke-dashoffset: -200;
+        stroke: purple;
+    }
+}
+
+@keyframes circle2 {
+    to{
+        stroke-dashoffset: 50;
+        stroke: purple;
+    }
+}
+
+@keyframes circle3 {
+    to{
+        stroke-dashoffset: -650;
+        stroke: purple;
+    }
+}
+
+.box span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -90%);
+    font-weight: 500;
+    color: rgb(104, 98, 108);
+    font-size: 50px;
+}
+
+.box h1{
+
+    text-align: center;
+    color: purple;
+    font-size: 30px;
+}
+
+.front-end{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+
+.first_front{
+
+    margin-top: 200px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* Explication back-end*/
+
+
+.back-end{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+
+
+
+.first_back{
+
+    margin-top: 350px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+/*Mise en forme */
+
+.third_article h2{
+
+    font-size: 50px;
+    margin-left: 40px;
+
+
+}
+
+
+
+.third_article p{
+
+    font-size: 25px;
+    line-height: 35px;
+    margin: 25px 40px 0 40px;
+}
+
+.apparition0{
+
+    opacity: 1;
+    transition-duration: 4s;
 }
 

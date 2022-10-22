@@ -25,3 +25,11 @@
     font-family: "Alegreya";
     src: url("Alegreya-VariableFont_wght.ttf");
 }
+
+::-webkit-scrollbar{
+    width: 11px;
+}
+::-webkit-scrollbar-thumb{
+
+    background: linear-gradient(rgb(164, 129, 169), rgb(146, 64, 146))
+}

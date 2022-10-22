@@ -45,3 +45,22 @@ window.addEventListener("scroll", () => {
   }
 });
 
+const langage = document.querySelectorAll(".box");
+const write_front = document.querySelector("h2");
+const write_back = document.querySelector("h3");
+
+window.addEventListener("scroll", () => {
+  langage.forEach((lang) => {
+    if (window.scrollY > 2500) {
+      lang.classList.add("apparition0");
+    }
+  });
+});
+
+window.addEventListener("scroll", ()=>{
+  if (window.scrollY > 1300) {
+    write_front.classList.add("transition_titre");
+  }
+})
+console.log(window.scrollY);
+console.log(write_front)
