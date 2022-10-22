@@ -35,7 +35,6 @@ window.addEventListener("scroll", () => {
 const first_container = document.querySelector(".first_container");
 const second_container = document.querySelector(".second_container");
 
-console.log(first_container);
 window.addEventListener("scroll", () => {
   if (window.scrollY > 200) {
     first_container.classList.add("visible0");
@@ -45,5 +44,4 @@ window.addEventListener("scroll", () => {
     second_container.classList.remove("visible1");
   }
 });
-
 
