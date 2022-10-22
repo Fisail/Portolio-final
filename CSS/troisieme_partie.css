@@ -2,11 +2,11 @@
 .third_article{
     position: relative;
     background:linear-gradient(white, rgb(221, 213, 221));
-    height: 500vh;
+    height: 600vh;
     overflow-y: hidden;
 }
 
-.third_article  #titre{
+.third_article  #titre2{
     margin: 200px 0 0 40px;
     font-size: 75px;
 }
@@ -44,8 +44,8 @@ svg circle{
     stroke: white;
     stroke-width: 10px;
     transform: translate(5px, 5px);
-    stroke-dasharray: 440;
-    stroke-dashoffset: 440;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450;
     animation: circle 7s forwards;
 
 }
@@ -55,8 +55,8 @@ svg .circle2{
     stroke: white;
     stroke-width: 10px;
     transform: translate(5px, 5px);
-    stroke-dasharray: 440;
-    stroke-dashoffset: 440;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450;
     animation: circle2 7s forwards;
 
 }
@@ -67,8 +67,8 @@ svg .circle3{
     stroke: white;
     stroke-width: 10px;
     transform: translate(5px, 5px);
-    stroke-dasharray: 440;
-    stroke-dashoffset: 440;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450;
     animation: circle3 7s forwards;
 
 }
@@ -77,21 +77,21 @@ svg .circle3{
 
 @keyframes circle {
     to{
-        stroke-dashoffset: -200;
+        stroke-dashoffset: 112.5;
         stroke: purple;
     }
 }
 
 @keyframes circle2 {
     to{
-        stroke-dashoffset: 50;
+        stroke-dashoffset: 180;
         stroke: purple;
     }
 }
 
 @keyframes circle3 {
     to{
-        stroke-dashoffset: -650;
+        stroke-dashoffset: 315;
         stroke: purple;
     }
 }
@@ -145,6 +145,28 @@ svg .circle3{
 
     margin-top: 350px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
+
+svg .circle4{
+    fill: none;
+    stroke: white;
+    stroke-width: 10px;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450 ;
+    animation: circle4 7s forwards;
+
+}
+
+
+
+@keyframes circle4 {
+    to{
+        stroke-dashoffset: 405;
+        stroke: purple;
+    }
 }
 
 
@@ -174,3 +196,30 @@ svg .circle3{
     transition-duration: 4s;
 }
 
+/*Application avec Golang*/
+
+.first_both{
+
+    margin:350px 0 0 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+svg .circle5{
+    fill: none;
+    stroke: white;
+    stroke-width: 10px;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450 ;
+    animation: circle5 7s forwards;
+
+}
+
+
+
+@keyframes circle5 {
+    to{
+        stroke-dashoffset: 382.5;
+        stroke: purple;
+    }
+}

@@ -46,8 +46,8 @@ window.addEventListener("scroll", () => {
 });
 
 const langage = document.querySelectorAll(".box");
-const write_front = document.querySelector("h2");
-const write_back = document.querySelector("h3");
+const bouton_scroll = document.querySelector(".bouton_scroll");
+
 
 window.addEventListener("scroll", () => {
   langage.forEach((lang) => {
@@ -57,10 +57,11 @@ window.addEventListener("scroll", () => {
   });
 });
 
-window.addEventListener("scroll", ()=>{
-  if (window.scrollY > 1300) {
-    write_front.classList.add("transition_titre");
-  }
-})
-console.log(window.scrollY);
-console.log(write_front)
+
+bouton_scroll.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
+});

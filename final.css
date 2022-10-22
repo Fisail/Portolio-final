@@ -33,3 +33,20 @@
 
     background: linear-gradient(rgb(164, 129, 169), rgb(146, 64, 146))
 }
+
+.bouton_scroll{
+
+    height: 150px;
+    width: 150px;
+    position: fixed;
+    z-index: 4;
+    right: 20px;
+    bottom: -20px;
+    cursor: pointer;
+}
+
+#scroll{
+
+    height: 80px;
+    width: 80px;
+}
