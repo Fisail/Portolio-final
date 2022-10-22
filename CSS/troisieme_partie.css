@@ -1,5 +1,5 @@
 .third_article{
-
+    position: relative;
     background:linear-gradient(white, rgb(221, 213, 221));
     height: 100vh;
 }
@@ -21,4 +21,50 @@
 
     color: rgb(119, 31, 163);
     font-weight: 800;
+}
+
+.article{
+
+    position: relative;
+}
+
+
+.Python{
+
+   position: absolute;
+   animation: anim 5s infinite;
+   margin-left: 500px;
+
+}
+
+.HTML{
+
+    position: absolute;
+    animation: anim 5s infinite;
+    margin: 300px 0 0 150px;
+ 
+ }
+
+
+.logo{
+
+    height: 250px;
+}
+
+@keyframes anim{
+    0%{
+        top: 20px;
+        left: 30px;
+    }
+
+    50%{
+        top: 40px;
+        left: 30px;
+    }
+
+
+    100%{
+        top: 20px;
+        left: 30px;
+    }
 }
