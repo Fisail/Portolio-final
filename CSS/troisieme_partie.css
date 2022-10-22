@@ -1,0 +1,24 @@
+.third_article{
+
+    background:linear-gradient(white, rgb(221, 213, 221));
+    height: 100vh;
+}
+
+.third_article  #titre{
+    margin: 150px 0 0 40px;
+    font-size: 75px;
+}
+
+
+.third_article .texte  {
+    margin: 100px 0 0 40px;
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(27, 21, 42);
+}
+
+.third_article  span{
+
+    color: rgb(119, 31, 163);
+    font-weight: 800;
+}
