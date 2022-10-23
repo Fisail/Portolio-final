@@ -1,22 +1,63 @@
 footer{
-    height: 30vh;
-    background-color: black;
-    border-top: 10px solid black;
+    height: 55vh;
+    background-color: white;
+    border-top: 5px solid rgb(119, 31, 163);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+.container_contact{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 100px;
+    margin-left: 15px;
 }
 
 footer h1{
 
-    color: white;
+    color: black;
+    margin-left: 15px;
+    margin-top: 25px;
+    font-size: 50px;
 }
 
+footer h3{
+
+    font-size: 30px;
+}
+footer p{
+
+    color: black;
+    width: 200px;
+    transform: translate(100px, -62px);
+}
+
+footer span{
+
+    color : rgb(119, 31, 163)
+}
 footer img{
 
     height: 100px;
 }
 
-footer .contact{
 
-    display: flex;
-    align-items: center;
+
+footer a:hover{
+
+    color: rgb(119, 31, 163);
 
 }
+
+.CP{
+
+    transform: translate(0, 40px);
+
+}
+
+
+footer a {
+    display: inline-block;
+    transform: translate(-160px, -15px);
+}
+
