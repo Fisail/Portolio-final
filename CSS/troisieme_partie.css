@@ -2,7 +2,7 @@
 .third_article{
     position: relative;
     background:linear-gradient(white, rgb(221, 213, 221));
-    height: 620vh;
+    height: 580vh;
     overflow-y: hidden;
 }
 
@@ -143,7 +143,7 @@ svg .circle3{
 
 .first_back{
 
-    margin-top: 350px;
+    margin-top: 300px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
     
@@ -200,7 +200,7 @@ svg .circle4{
 
 .first_both{
 
-    margin:350px 0 0 20px;
+    margin:250px 0 0 20px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 

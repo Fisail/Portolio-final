@@ -1,7 +1,7 @@
 .four_article{
     position: relative;
-    background:linear-gradient( rgb(221, 213, 221), rgb(154, 149, 149));
-    height: 400vh;
+    background:linear-gradient( rgb(221, 213, 221), white);
+    height: 250vh;
     overflow-y: hidden;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -10,7 +10,7 @@
 
 
 .four_article  #projects{
-    margin: 80px 0 0 40px;
+    margin: 0px 0 0 40px;
     font-size: 75px;
 }
 
@@ -20,7 +20,7 @@
 display: flex;
 flex-wrap: wrap;
 row-gap: 100px;
-margin-top: 150px;
+margin-top: 100px;
 
 }
 

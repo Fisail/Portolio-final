@@ -1,0 +1,22 @@
+footer{
+    height: 30vh;
+    background-color: black;
+    border-top: 10px solid black;
+}
+
+footer h1{
+
+    color: white;
+}
+
+footer img{
+
+    height: 100px;
+}
+
+footer .contact{
+
+    display: flex;
+    align-items: center;
+
+}
