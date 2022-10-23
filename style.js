@@ -48,7 +48,6 @@ window.addEventListener("scroll", () => {
 const langage = document.querySelectorAll(".box");
 const bouton_scroll = document.querySelector(".bouton_scroll");
 
-
 window.addEventListener("scroll", () => {
   langage.forEach((lang) => {
     if (window.scrollY > 2500) {
@@ -57,11 +56,18 @@ window.addEventListener("scroll", () => {
   });
 });
 
-
 bouton_scroll.addEventListener("click", () => {
   window.scrollTo({
     top: 0,
     left: 0,
+    behavior: "smooth",
+  });
+});
+
+const en_savoir_plus = document.querySelector(".boutton");
+en_savoir_plus.addEventListener("click", () => {
+  window.scrollTo({
+    top: 1050,
     behavior: "smooth",
   });
 });

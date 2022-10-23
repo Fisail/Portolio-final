@@ -19,6 +19,7 @@ ul{
     display: flex;
     text-decoration: none;
     padding: 15px 0 0 80px;
+    margin-left: 10px;
     transform: translateY(0px);
     transition-duration: 1s;
     font-weight: 500;
@@ -92,3 +93,5 @@ a::after{
 .contacter:hover::after{
     width: 9.5%;
 }
+
+

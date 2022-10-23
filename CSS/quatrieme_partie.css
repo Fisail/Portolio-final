@@ -1,0 +1,101 @@
+.four_article{
+    position: relative;
+    background:linear-gradient( rgb(221, 213, 221), rgb(154, 149, 149));
+    height: 400vh;
+    overflow-y: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+.four_article  #projects{
+    margin: 80px 0 0 40px;
+    font-size: 75px;
+}
+
+
+.container_project{
+
+display: flex;
+flex-wrap: wrap;
+row-gap: 100px;
+margin-top: 150px;
+
+}
+
+
+
+
+.box_project{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid rgb(119, 31, 163);
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    height: 700px;
+    margin-left: 7px;
+}
+
+#image_project{
+
+    height: 250px;
+    margin: 0 30px 0 30px;
+    background-size: cover;
+}
+
+h5{
+
+    font-size: 45px;
+    text-align: center;
+}
+
+span{
+
+    color :rgb(119, 31, 163);
+}
+
+h8{
+    margin-left: 10px;
+}
+.box_project p{
+
+    margin: 45px 10px 20px 10px;
+}
+.presentation_langages{
+
+    display: flex;
+    flex-direction: row;
+   
+}
+#logo_info{
+
+    height: 60px;
+    transform: translateY(-30%);
+}
+.acces_site{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 2px solid rgb(119, 31, 163);
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+    transform: translateX(-20%);
+    
+}
+#open_logo{
+
+    height: 30px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}

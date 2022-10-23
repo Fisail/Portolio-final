@@ -2,6 +2,7 @@
 @import url("CSS/premiere_partie.css");
 @import url("CSS/seconde_partie.css");
 @import url("CSS/troisieme_partie.css");
+@import url("CSS/quatrieme_partie.css");
 
 
 *{
@@ -9,6 +10,7 @@
     margin: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+
 }
 
 @font-face {
@@ -49,4 +51,9 @@
 
     height: 80px;
     width: 80px;
+}
+span{
+
+    color: rgb(119, 31, 163);
+    font-weight: 800;
 }
