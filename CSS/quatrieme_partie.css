@@ -99,3 +99,16 @@ a {
     text-align: center;
     color: black;
 }
+
+@media screen and (max-width: 420px){
+    .four_article{
+        height: 400vh;
+    }
+}
+
+@media screen and (min-width:430px) and (max-width: 830px){
+
+    .four_article{
+        height: 300vh;
+    }
+}

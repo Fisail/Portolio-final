@@ -58,3 +58,10 @@ span{
     color: rgb(119, 31, 163);
     font-weight: 800;
 }
+
+@media screen and (max-width: 420px){
+    .bouton_scroll{
+       display: none;
+    }
+    
+}

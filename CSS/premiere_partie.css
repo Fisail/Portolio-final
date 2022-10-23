@@ -6,11 +6,13 @@
     display: grid;
     grid-template-columns: 50vh 50vh;
     background: linear-gradient(white, rgb(195, 185, 196));
+   
 }
 
 
 #image_moi{
-
+    position: relative;
+    z-index: 2;
     height: 1000px;
     margin-left:50vh;
     transform: translateY(-15%);
@@ -75,8 +77,59 @@
 #sphere{
 
     position: absolute;
+    z-index: 4;
     top: 55%;
     left: 65%;
     height: 250px;
+
 }
 
+h6{
+
+    margin-top: 30px;
+    overflow-y: hidden;
+}
+
+h6 a{
+
+    color: rgb(119, 31, 163);
+    transform: translate(-155px, 21px);
+}
+
+
+
+
+@media screen and (max-width: 420px){
+    .effet_ecriture{
+       width: 250px;
+    }
+
+    #sphere{
+
+       display: none;
+    }
+
+    .boutton2{
+
+        transform: translateX(-50px);
+        width: 250px;
+    }
+
+    h6 a{
+        transform: translate(50px, -37px);
+        background-color: transparent;
+    }
+}
+
+
+
+@media screen and (min-width:430px) and (max-width: 830px){
+    #sphere{
+        display: none;
+    }
+
+    h6 a{
+        transform: translate(-25px, 20px);
+        background-color: transparent;
+    }
+ }

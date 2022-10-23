@@ -1,5 +1,7 @@
 const liste = document.querySelector("ul");
-/*
+let media420 = window.matchMedia("(min-width: 810px");
+let media430 = window.matchMedia("(min-width: 830px");
+
 const hamburger = document.getElementById("hamburger");
 
 let visible = false;
@@ -13,7 +15,7 @@ hamburger.addEventListener("click", () => {
   }
 });
 
-*/
+
 
 $(document).ready(function () {
   var typed = new Typed(".texte", {
@@ -25,7 +27,7 @@ $(document).ready(function () {
 });
 
 window.addEventListener("scroll", () => {
-  if (window.scrollY > 20) {
+  if (window.scrollY > 20 && media420.matches) {
     liste.classList.add("visibleY");
   } else {
     liste.classList.remove("visibleY");
@@ -35,8 +37,9 @@ window.addEventListener("scroll", () => {
 const first_container = document.querySelector(".first_container");
 const second_container = document.querySelector(".second_container");
 
+
 window.addEventListener("scroll", () => {
-  if (window.scrollY > 200) {
+  if (window.scrollY > 200 && media430.matches) {
     first_container.classList.add("visible0");
     second_container.classList.add("visible1");
   } else {
