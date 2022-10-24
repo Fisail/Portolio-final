@@ -59,7 +59,7 @@
     cursor: pointer;
 }
 
-.boutton2{
+.container_bouton a{
 
     margin-left: 50px;
     display: inline-block;
@@ -110,7 +110,7 @@ h6 a{
         display: none;
     }
 
-    .boutton2{
+    .container_bouton a{
 
         transform: translateX(-50px);
         width: 250px;
