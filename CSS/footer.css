@@ -77,4 +77,10 @@ footer a {
 
         overflow-y: hidden;
     }
+
+    .CP{
+
+        transform: translate(0, 0px);
+    
+    }
 }

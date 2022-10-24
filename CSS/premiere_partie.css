@@ -100,13 +100,14 @@ h6 a{
 
 
 @media screen and (max-width: 420px){
+
+
     .effet_ecriture{
        width: 250px;
     }
 
     #sphere{
-
-       display: none;
+        display: none;
     }
 
     .boutton2{

@@ -88,11 +88,15 @@ a::after{
 }
 @media screen and (max-width: 420px){
 
+    nav{
+
+        position: absolute;
+    }
     #hamburger{
         position: absolute;
         top: 0;
         right: 0;
-        margin-right: 30px;
+        margin-right: 50px;
         visibility: visible;
         
     }
@@ -102,11 +106,13 @@ a::after{
         display: flex;
         flex-direction: column;
         visibility: hidden;
+       
         
     }
     
     a{
         background-color: white;
+        margin-right: 50px;
     }
 
     .presentation:hover::after{
