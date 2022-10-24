@@ -2,6 +2,7 @@ const liste = document.querySelector("ul");
 let media420 = window.matchMedia("(min-width: 810px");
 let media430 = window.matchMedia("(min-width: 830px");
 
+
 const hamburger = document.getElementById("hamburger");
 
 let visible = false;

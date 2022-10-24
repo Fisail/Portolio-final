@@ -33,7 +33,7 @@
 .container_image .sous_container{
     background-color: white;
     overflow-y: hidden;
-    height: 320px;
+    height: 350px;
     width: 300px;
     border-radius: 8px;
 }
@@ -50,8 +50,8 @@
 .container_image .sous_container .container_texte{
 
     text-align: center;
-    transform: translateY(-70%);
-    font-family: "Raleway"
+    transform: translateY(-55%);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .sous2{
