@@ -11,9 +11,13 @@
     margin: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-
+    scroll-behavior: smooth;
 }
 
+body{
+
+    background-color : rgb(221, 213, 221)
+}
 @font-face {
     font-family: "Roboto";
     src: url("RobotoMono-VariableFont_wght.ttf");

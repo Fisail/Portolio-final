@@ -2,7 +2,6 @@
 .third_article{
     position: relative;
     background:linear-gradient(white, rgb(221, 213, 221));
-    height: 580vh;
     overflow-y: hidden;
 }
 
@@ -41,60 +40,46 @@ svg{
 
 svg circle{
     fill: none;
-    stroke: white;
+    stroke: rgb(119, 31, 163);
     stroke-width: 10px;
     transform: translate(5px, 5px);
     stroke-dasharray: 450;
-    stroke-dashoffset: 450;
-    animation: circle 7s forwards;
+    stroke-dashoffset: 112.5;
 
 }
 
 svg .circle2{
     fill: none;
-    stroke: white;
+    stroke:  rgb(119, 31, 163);
     stroke-width: 10px;
     transform: translate(5px, 5px);
     stroke-dasharray: 450;
-    stroke-dashoffset: 450;
-    animation: circle2 7s forwards;
+    stroke-dashoffset: 180;
 
 }
 
 
 svg .circle3{
     fill: none;
-    stroke: white;
+    stroke:  rgb(119, 31, 163);
     stroke-width: 10px;
     transform: translate(5px, 5px);
     stroke-dasharray: 450;
-    stroke-dashoffset: 450;
-    animation: circle3 7s forwards;
+    stroke-dashoffset: 315;
 
 }
 
 
+svg .circle4{
+    fill: none;
+    stroke: rgb(119, 31, 163);
+    stroke-width: 10px;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 450;
+    stroke-dashoffset: 405 ;
 
-@keyframes circle {
-    to{
-        stroke-dashoffset: 112.5;
-        stroke: purple;
-    }
 }
 
-@keyframes circle2 {
-    to{
-        stroke-dashoffset: 180;
-        stroke: purple;
-    }
-}
-
-@keyframes circle3 {
-    to{
-        stroke-dashoffset: 315;
-        stroke: purple;
-    }
-}
 
 .box span{
     position: absolute;
@@ -149,25 +134,7 @@ svg .circle3{
     
 }
 
-svg .circle4{
-    fill: none;
-    stroke: white;
-    stroke-width: 10px;
-    transform: translate(5px, 5px);
-    stroke-dasharray: 450;
-    stroke-dashoffset: 450 ;
-    animation: circle4 7s forwards;
 
-}
-
-
-
-@keyframes circle4 {
-    to{
-        stroke-dashoffset: 405;
-        stroke: purple;
-    }
-}
 
 
 
@@ -206,23 +173,14 @@ svg .circle4{
 
 svg .circle5{
     fill: none;
-    stroke: white;
+    stroke:  rgb(119, 31, 163);
     stroke-width: 10px;
     transform: translate(5px, 5px);
     stroke-dasharray: 450;
-    stroke-dashoffset: 450 ;
-    animation: circle5 7s forwards;
+    stroke-dashoffset: 382.5 ;
 
 }
 
-
-
-@keyframes circle5 {
-    to{
-        stroke-dashoffset: 382.5;
-        stroke: purple;
-    }
-}
 
 
 

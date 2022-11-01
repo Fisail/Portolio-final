@@ -3,7 +3,6 @@
     display: grid;
     grid-template-columns: 700px 1fr;
     background: linear-gradient(rgb(195, 185, 196), white);
-    height: auto;
     overflow-y: hidden;
 }
 
@@ -34,7 +33,7 @@
     background-color: white;
     overflow-y: hidden;
     height: 350px;
-    width: 300px;
+    width: 350px;
     border-radius: 8px;
 }
 
