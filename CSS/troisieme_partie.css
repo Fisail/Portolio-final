@@ -197,13 +197,13 @@ svg .circle5{
     }
     
 }
-@media  screen and (max-width:360px) {
+@media  screen and (max-width:380px) {
     .third_article  #titre2{
         margin: 200px 0 0 40px;
         font-size: 55px;
     }
     .third_article{
-        height: auto+5vh;
+        height: 1180vh;
     }
         
 }

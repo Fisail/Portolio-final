@@ -140,3 +140,9 @@ a::after{
 }
 
 
+@media screen and (max-width: 400px){
+    nav{
+        background: transparent;
+    }
+}
+    
