@@ -138,11 +138,8 @@ a::after{
 }
 
 
-<<<<<<< HEAD
-@media screen and (max-width: 419px){
-=======
 @media screen and (max-width: 400px){
->>>>>>> 19701b82e5ef1eca43d2ebbc5559d5c840a99927
+
     nav{
         background: transparent;
     }

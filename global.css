@@ -15,7 +15,6 @@
 }
 
 body{
-
     background-color : rgb(221, 213, 221);
   
 }
@@ -70,16 +69,3 @@ span{
     }
     
 }
-
-<<<<<<< HEAD
- 
-=======
-@media screen and (max-width: 400px){
-
-    body{
-
-        background-color: white;
-    }
-}
-    
->>>>>>> 19701b82e5ef1eca43d2ebbc5559d5c840a99927
