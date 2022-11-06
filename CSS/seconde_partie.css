@@ -2,7 +2,6 @@
 .second_article{
     display: grid;
     grid-template-columns: 700px 1fr;
-    background: linear-gradient(rgb(195, 185, 196), white);
     overflow-y: hidden;
 }
 
@@ -27,7 +26,7 @@
 
 .container_image{
     overflow-y: hidden;
-    margin: 100px 0 0 40px;
+    margin: 100px 0 0 100px;
 }
 .container_image .sous_container{
     background-color: white;
@@ -58,20 +57,13 @@
     margin: 40px 0 50px 0;
 }
 
-.visible0{
-    transition-duration: 3s;
-    transform: translateX(-300px);
-}
 
-.visible1{
-    transition-duration: 3s;
-    transform: translateX(300px);
-}
 
 .first_container{
     position: relative;
-    z-index: 15;
-    margin: 50px 0 0 400px;
+    z-index: 1;
+    margin: 50px 0 0 150px;
+    width: 100%;
 }
 
 
@@ -91,7 +83,7 @@
   
 
     .first_container{
-        display: none;
+        transform: translateX(-35%);
     }
 
     .container_image{

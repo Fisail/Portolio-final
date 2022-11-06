@@ -34,7 +34,7 @@ window.addEventListener("scroll", () => {
     liste.classList.remove("visibleY");
   }
 });
-
+/*
 const first_container = document.querySelector(".first_container");
 const second_container = document.querySelector(".second_container");
 
@@ -48,7 +48,7 @@ window.addEventListener("scroll", () => {
     second_container.classList.remove("visible1");
   }
 });
-
+*/
 const langage = document.querySelectorAll(".box");
 const bouton_scroll = document.querySelector(".bouton_scroll");
 

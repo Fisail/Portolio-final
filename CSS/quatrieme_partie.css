@@ -1,7 +1,6 @@
 .four_article{
     position: relative;
     margin-top: 250px;
-    background:linear-gradient( rgb(221, 213, 221));
     overflow-y: hidden;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -93,22 +92,17 @@ h8{
     height: 30px;
 }
 
-a {
+.four_article a {
     display: inline-block;
     text-decoration: none;
     text-align: center;
     color: black;
 }
 
-@media screen and (max-width: 420px){
-    .four_article{
-        height: 400vh;
-    }
-}
+@media screen and (max-width:425px) {
 
-@media screen and (min-width:430px) and (max-width: 830px){
-
-    .four_article{
-        height: 300vh;
+    .acces_site{
+       transform: translateX(-100%);
     }
+    
 }

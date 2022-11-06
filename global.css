@@ -16,7 +16,8 @@
 
 body{
 
-    background-color : rgb(221, 213, 221)
+    background-color : rgb(221, 213, 221);
+  
 }
 @font-face {
     font-family: "Roboto";
@@ -63,9 +64,11 @@ span{
     font-weight: 800;
 }
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 450px){
     .bouton_scroll{
        display: none;
     }
     
 }
+
+ 

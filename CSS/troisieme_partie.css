@@ -1,7 +1,6 @@
 
 .third_article{
     position: relative;
-    background:linear-gradient(white, rgb(221, 213, 221));
     overflow-y: hidden;
 }
 
@@ -186,31 +185,21 @@ svg .circle5{
 
 @media screen and (min-width: 370px) and (max-width:380px){
 
-    .third_article {
-
-        height: 1270vh;
-        
-    }
     .third_article  #titre2{
         margin: 200px 0 0 40px;
         font-size: 55px;
     }
     
 }
-@media  screen and (max-width:360px) {
+@media  screen and (max-width:380px) {
     .third_article  #titre2{
         margin: 200px 0 0 40px;
         font-size: 55px;
     }
-    .third_article{
-        height: auto+5vh;
-    }
         
 }
 @media screen and (min-width: 390px) and (max-width:400px){
-    .third_article{
-        height: 980vh;
-    }
+
     .third_article  #titre2{
         margin: 200px 0 0 40px;
         font-size: 55px;
@@ -220,25 +209,9 @@ svg .circle5{
 }
 @media screen and (min-width:410px) and (max-width: 810px){
 
-    .third_article{
-        height: 920vh;
-    }
     .third_article  #titre2{
         margin: 200px 0 0 40px;
         font-size: 60px;
     }
     
-}
-
-@media screen and (min-width: 812px) and (max-width:825px){
-
-    .third_article{
-        height: 470vh;
-    }
-}
-
-@media screen and (min-width:910px) and (max-width: 950px) {
-    .third_article{
-        height: 380vh;
-    }
 }

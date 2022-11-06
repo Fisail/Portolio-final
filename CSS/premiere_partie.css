@@ -4,24 +4,26 @@
 .first_article{
     position: relative;
     display: grid;
+    overflow-y: hidden;
     grid-template-columns: 50vh 50vh;
-    background: linear-gradient(white, rgb(195, 185, 196));
    
 }
 
 
 #image_moi{
     position: relative;
+  
     z-index: 2;
-    height: 1000px;
+    height: 700px;
     margin-left:50vh;
-    transform: translateY(-15%);
+    transform: translateY(5%);
 }
 
 
 .effet_ecriture {
     margin: 60% 0 0 25%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     font-weight: bold;
     font-size: 30px;
@@ -74,15 +76,7 @@
     cursor: pointer;
 }
 
-#sphere{
 
-    position: absolute;
-    z-index: 4;
-    top: 55%;
-    left: 65%;
-    height: 250px;
-
-}
 
 h6{
 
@@ -103,11 +97,11 @@ h6 a{
 
 
     .effet_ecriture{
-       width: 250px;
-    }
-
-    #sphere{
-        display: none;
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       width: 100%;
+       transform: translate(-25%, -20%);
     }
 
     .container_bouton a{
@@ -125,10 +119,13 @@ h6 a{
 
 
 @media screen and (min-width:430px) and (max-width: 830px){
-    #sphere{
-        display: none;
-    }
 
+    .effet_ecriture{
+        display: flex;
+        flex-wrap: wrap;
+        width: 420px;
+        transform: translateY(-10%);
+     }
     h6 a{
         transform: translate(-25px, 20px);
         background-color: transparent;

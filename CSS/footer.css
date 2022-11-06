@@ -42,7 +42,6 @@ footer img{
 }
 
 
-
 footer a:hover{
 
     color: rgb(119, 31, 163);
@@ -58,7 +57,7 @@ footer a:hover{
 
 footer a {
     display: inline-block;
-    transform: translate(-160px, -15px);
+    transform: translate(-120px, -15px);
 }
 
 @media screen and (max-width: 420px){
