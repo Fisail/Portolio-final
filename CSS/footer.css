@@ -60,6 +60,8 @@ footer a {
     transform: translate(-120px, -15px);
 }
 
+
+/*
 @media screen and (max-width: 420px){
     footer{
         position: relative;
@@ -83,3 +85,5 @@ footer a {
     
     }
 }
+
+*/

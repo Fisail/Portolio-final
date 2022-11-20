@@ -28,6 +28,7 @@
 .container_image{
     overflow-y: hidden;
     margin: 100px 0 0 100px;
+    animation: animation 6s ease-in-out infinite;
 }
 .container_image .sous_container{
     background-color: white;
@@ -50,7 +51,7 @@
 
     text-align: center;
     transform: translateY(-55%);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .sous2{
@@ -68,6 +69,13 @@
 }
 
 
+@keyframes animation {
+    0%{transform: translateX(2%);}
+    50%{transform: translateX(-2%);}
+    100%{transform: translateX(2%);}
+}
+
+/*
 
 @media screen and (max-width: 420px){
 
@@ -129,3 +137,5 @@
     }
    
 }
+
+*/

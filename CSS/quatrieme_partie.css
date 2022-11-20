@@ -29,6 +29,7 @@ margin-top: 100px;
 .box_project{
     position: relative;
     display: flex;
+    overflow-y: hidden;
     flex-direction: column;
     justify-content: center;
     border: 2px solid rgb(119, 31, 163);
@@ -77,14 +78,15 @@ h8{
 }
 .acces_site{
     position: absolute;
+    z-index: 18;
     display: flex;
     align-items: center;
     background-color: white;
     border: 2px solid rgb(119, 31, 163);
     border-radius: 10px;
-    width: 200px;
+    width: 250px;
     padding: 10px;
-    transform: translateX(-20%);
+    transform: translateX(-50%);
     
 }
 #open_logo{
@@ -98,7 +100,7 @@ h8{
     text-align: center;
     color: black;
 }
-
+/*
 @media screen and (max-width:425px) {
 
     .acces_site{
@@ -106,3 +108,5 @@ h8{
     }
     
 }
+
+*/
