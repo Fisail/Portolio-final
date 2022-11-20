@@ -77,7 +77,6 @@ h8{
     transform: translateY(-30%);
 }
 .acces_site{
-    position: absolute;
     z-index: 18;
     display: flex;
     align-items: center;
@@ -86,7 +85,7 @@ h8{
     border-radius: 10px;
     width: 250px;
     padding: 10px;
-    transform: translateX(-50%);
+    margin-left: 25%;
     
 }
 #open_logo{
@@ -100,13 +99,3 @@ h8{
     text-align: center;
     color: black;
 }
-/*
-@media screen and (max-width:425px) {
-
-    .acces_site{
-       transform: translateX(-100%);
-    }
-    
-}
-
-*/

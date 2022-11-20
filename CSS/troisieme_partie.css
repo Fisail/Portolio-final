@@ -180,42 +180,15 @@ svg .circle5{
 
 }
 
-/*
+@media screen and (max-width:800px) {
+    .front-end, .back-end{
+        gap: 15px;
+    }
 
-
-@media screen and (min-width: 370px) and (max-width:380px){
-
+    
     .third_article  #titre2{
-        margin: 200px 0 0 40px;
+
         font-size: 55px;
     }
     
 }
-@media  screen and (max-width:380px) {
-    .third_article  #titre2{
-        margin: 200px 0 0 40px;
-        font-size: 55px;
-    }
-
-
-        
-}
-@media screen and (min-width: 390px) and (max-width:400px){
-
-    .third_article  #titre2{
-        margin: 200px 0 0 40px;
-        font-size: 55px;
-    }
-    
-    
-}
-@media screen and (min-width:410px) and (max-width: 810px){
-
-    .third_article  #titre2{
-        margin: 200px 0 0 40px;
-        font-size: 60px;
-    }
-    
-}
-
-*/

@@ -46,43 +46,35 @@ footer a:hover{
 }
 
 .CP{
-
-    transform: translate(0, 40px);
+    margin-top: 40px;
 
 }
 
-footer a{
-    margin: 25px 0 0 10px;
-}
+
 
 .reseau{
     display: flex;
 }
 
+.reseau a {
 
-/*
-@media screen and (max-width: 420px){
-    footer{
-        position: relative;
-        height: auto;
-    }
+    text-decoration: none;
+    color: black;
+  
+}
 
+.reseau p{
+
+    margin-top: 30px;
+}
+
+.reseau img{
+    margin-top: -10px;
+}
+
+@media screen and (max-width:800px) {
     .container_contact{
-
         display: flex;
         flex-direction: column;
     }
-
-    .contact{
-
-        overflow-y: hidden;
-    }
-
-    .CP{
-
-        transform: translate(0, 0px);
-    
-    }
 }
-
-*/
