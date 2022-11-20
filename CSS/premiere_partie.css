@@ -72,6 +72,7 @@
     border: 2px solid rgb(119, 31, 163);;
     border-radius: 8px;
     font-weight: 0;
+    font-size: 30px;
     color: rgb(119, 31, 163);
     cursor: pointer;
 }

@@ -25,12 +25,6 @@ footer h3{
 
     font-size: 30px;
 }
-footer p{
-
-    color: black;
-    width: 200px;
-    transform: translate(100px, -62px);
-}
 
 footer span{
 
@@ -40,6 +34,9 @@ footer img{
 
     height: 100px;
 }
+
+
+
 
 
 footer a:hover{
@@ -54,10 +51,12 @@ footer a:hover{
 
 }
 
+footer a{
+    margin: 25px 0 0 10px;
+}
 
-footer a {
-    display: inline-block;
-    transform: translate(-120px, -15px);
+.reseau{
+    display: flex;
 }
 
 
