@@ -97,7 +97,8 @@ h6 a{
 
     .first_article{
         display: flex;
-        margin-top: -250px;
+        margin-top: -200px;
+        margin-left: -80px;
     }
 
     .container_bouton a{
