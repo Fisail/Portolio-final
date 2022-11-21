@@ -48,12 +48,13 @@
     transition-duration: 0.2s;
 }
 
-.boutton{
+.first_article a:nth-child(1){
     display: inline-block;
     margin-top: 100px;
     background-color: rgb(119, 31, 163);
     width: 230px;
     padding: 15px;
+    text-decoration: none;
     border-radius: 8px;
     font-weight: 0;
     color: white;
@@ -63,6 +64,7 @@
 .container_bouton a{
 
     margin-left: 50px;
+    text-decoration: none;
     display: inline-block;
     margin-top: 100px;
     background-color: transparent;
