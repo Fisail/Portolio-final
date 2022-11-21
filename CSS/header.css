@@ -60,26 +60,23 @@ header a::after{
 }
 
 .presentation:hover::after{
-    width: 10.5%;
+    width: 9.5%;
 }
 
 
 
 .competences:hover::after{
-    width: 12%;
+    width: 10.5%;
 }
 
 .projets:hover::after{
-    width: 8%;
+    width: 7%;
 }
 .contacter{
 
     background-color: rgb(119, 31, 163);
     border-radius: 8px;
     color: white;
-}
-.contacter:hover::after{
-    width: 9.5%;
 }
 
 

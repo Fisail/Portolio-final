@@ -2,11 +2,13 @@
 .third_article{
     position: relative;
     overflow-y: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .third_article  #titre2{
     margin: 200px 0 0 40px;
     font-size: 75px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
@@ -17,178 +19,89 @@
     font-weight: 800;
 }
 
-.box{
-    position: relative;
-    background-color: white;
-    padding: 40px;
-    border-radius: 10px;
-    border: 2px solid purple;
-    width: 300px;
-    height: 350px;
-    overflow-y: hidden;
-    opacity: 0;
-}
-
-
-svg{
-    height: 250px;
-    width: 650px;
-}
-
-/*Côté Front-end */
-
-svg circle{
-    fill: none;
-    stroke: rgb(119, 31, 163);
-    stroke-width: 10px;
-    transform: translate(5px, 5px);
-    stroke-dasharray: 450;
-    stroke-dashoffset: 112.5;
-
-}
-
-svg .circle2{
-    fill: none;
-    stroke:  rgb(119, 31, 163);
-    stroke-width: 10px;
-    transform: translate(5px, 5px);
-    stroke-dasharray: 450;
-    stroke-dashoffset: 180;
-
-}
-
-
-svg .circle3{
-    fill: none;
-    stroke:  rgb(119, 31, 163);
-    stroke-width: 10px;
-    transform: translate(5px, 5px);
-    stroke-dasharray: 450;
-    stroke-dashoffset: 315;
-
-}
-
-
-svg .circle4{
-    fill: none;
-    stroke: rgb(119, 31, 163);
-    stroke-width: 10px;
-    transform: translate(5px, 5px);
-    stroke-dasharray: 450;
-    stroke-dashoffset: 405 ;
-
-}
-
-
-.box span{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-40%, -90%);
-    font-weight: 500;
-    color: rgb(104, 98, 108);
-    font-size: 50px;
-}
-
-.box h1{
-
-    text-align: center;
-    color: purple;
-    font-size: 30px;
-}
-
-.front-end{
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 150px;
-}
-
-.first_front{
-
-    margin-top: 200px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-
-/* Explication back-end*/
-
-
-.back-end{
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 150px;
-}
-
-
-
-.first_back{
-
-    margin-top: 300px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
-    
-}
-
-
-
-
-
-/*Mise en forme */
-
 .third_article h2{
 
-    font-size: 50px;
-    margin-left: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 1px solid rgb(119, 31, 163);
+    padding: 8px;
+    background-color: rgb(119, 31, 163);
+    color: white;
+}
 
+.container_icons{
 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    background-color: white;
+    width: 95%;
+    border-radius: 10px;
+    line-height: 30px;
+    border: 2px solid rgb(169, 21, 243);
+    margin-top: 100px;
 }
 
 
+
+.third_article h3{
+    font-size: 25px;
+    
+    margin-top: 20px;
+}
+
+
+.third_article img{
+
+    height:150px;
+    width: 200px;
+}
+
+.container_front, .container_inter, .container_conf{
+
+    margin-left: 10px;
+    text-align: center;
+}
+
+.container_front, .container_inter{
+    border-right: 1px solid rgb(169, 21, 243);
+}
 
 .third_article p{
+    font-size: 18px;
+}
+.third_article h4{
 
-    font-size: 25px;
-    line-height: 35px;
-    margin: 25px 40px 0 40px;
+    font-size: 20px;
+}
+.container_front img, .container_inter img, .container_conf img{
+    margin-top: 20px;
+    height: 70px;
+    width: 70px;
+    border-radius: 20%;
+    padding: 5px;
+    background-color: rgb(169, 21, 243);
 }
 
-.apparition0{
+.langage_utilises, .logiciels_utilises{
 
-    opacity: 1;
-    transition-duration: 4s;
+    margin-top: 30px;
 }
 
-/*Application avec Golang*/
 
-.first_both{
 
-    margin:250px 0 0 20px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-svg .circle5{
-    fill: none;
-    stroke:  rgb(119, 31, 163);
-    stroke-width: 10px;
-    transform: translate(5px, 5px);
-    stroke-dasharray: 450;
-    stroke-dashoffset: 382.5 ;
-
-}
-
-@media screen and (max-width:800px) {
-    .front-end, .back-end{
-        gap: 15px;
+@media screen and (max-width:800px){
+    .container_icons{
+        display: flex;
+        flex-direction: column;
     }
 
-    
+    .container_inter, .container_conf{
+        margin-top: 80px;
+        border-top: 1px solid rgb(169, 21, 243);
+    }
+
     .third_article  #titre2{
-
-        font-size: 45px;
+        font-size: 40px;
+        margin-left: 15px;
     }
-    
 }
