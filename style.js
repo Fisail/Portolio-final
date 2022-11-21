@@ -20,7 +20,7 @@ hamburger.addEventListener("click", () => {
 
 $(document).ready(function () {
   var typed = new Typed(".texte", {
-    strings: ["découvrir mon univers ?", " en savoir plus sur moi ?"],
+    strings: ["découvrir mon portfolio ?", " en savoir plus sur moi ?"],
     typeSpeed: 110,
     backSpeed: 20,
     loop: true,
