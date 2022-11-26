@@ -1,0 +1,138 @@
+.parcours_scolaire{
+
+    margin-top: 40px;
+}
+.container_parcours{
+    display: none; 
+}
+
+.container_parcours.active{
+    background-color: white;
+    border: 2px solid rebeccapurple;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 80px;
+    animation: frr 2s ease;
+}
+@keyframes frr {
+    from{opacity: 0;}
+    to{opacity: 1;}
+    
+}
+.parcours_scolaire img{
+
+    height: 350px;
+    padding: 60px;
+}
+
+
+.title_parcours{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: gray;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.container_parcours p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    padding-right: 10px;
+    margin-top: 40px;
+}
+
+.container_parcours ul{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    color: rgb(85, 77, 121);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 5px;
+}
+
+.parcours_write{
+
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+div .attente{
+
+    font-size: 20px;
+    color: rgb(85, 77, 121);
+}
+
+
+.fleche{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+#fleche_left , #fleche_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    height: 80px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.fleche img:nth-child(2){
+    margin-left: 50px;
+}
+
+.parcours_scolaire h1{
+    margin: 80px 0 0 40px;
+    font-size: 75px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.disparition{
+    visibility: hidden;
+}
+
+@media screen and (max-width: 1130px) {
+    .container_parcours.active{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .title_parcours{
+
+        font-size: 50px;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 450px) {
+    .container_parcours.active{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .title_parcours{
+
+        font-size: 35px;
+    }
+
+    
+}

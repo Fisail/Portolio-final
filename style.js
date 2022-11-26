@@ -62,10 +62,48 @@ window.addEventListener("scroll", () => {
 
 
 
-const en_savoir_plus = document.querySelector(".boutton");
+const en_savoir_plus = document.querySelector("#scroll");
 en_savoir_plus.addEventListener("click", () => {
   window.scrollTo({
-    top: 1050,
+    top: 0,
     behavior: "smooth",
   });
 });
+
+
+const items = document.querySelectorAll(".container_parcours")
+
+const longueur_items = items.length;
+
+const précédent = document.getElementById("fleche_left")
+const suivant = document.getElementById("fleche_right")
+
+
+let compteur  = 0 
+
+
+let fleche = 0
+
+
+précédent.addEventListener("click", ()=>{
+    items[compteur].classList.remove("active")
+    if (compteur > 0){
+        compteur -= 1 
+    }
+
+    console.log(compteur);
+    items[compteur].classList.add("active")
+})
+
+
+suivant.addEventListener("click", ()=>{
+    items[compteur].classList.remove("active")
+    if (compteur < longueur_items - 1){
+        compteur += 1 
+    }
+
+ 
+    console.log(compteur);
+
+    items[compteur].classList.add("active")
+})

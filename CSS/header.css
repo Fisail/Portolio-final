@@ -59,18 +59,9 @@ header a::after{
     transition: width 0.2s ease-in-out;
 }
 
-.presentation:hover::after{
-    width: 9.5%;
-}
-
-
-
-.competences:hover::after{
-    width: 10.5%;
-}
-
-.projets:hover::after{
-    width: 7%;
+header a:hover{
+    color: purple;
+    border-bottom: 2px solid purple;
 }
 .contacter{
 
