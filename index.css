@@ -1,3 +1,4 @@
+@import url("loader.css");
 @import url("CSS/header.css");
 @import url("CSS/premiere_partie.css");
 @import url("CSS/seconde_partie.css");
@@ -52,6 +53,7 @@ body{
     right: 20px;
     bottom: -20px;
     cursor: pointer;
+    animation: scroll 1s ease infinite
 }
 
 #scroll{
@@ -67,6 +69,13 @@ span{
 
     color: rgb(119, 31, 163);
     font-weight: 800;
+}
+
+@keyframes scroll {
+    0%{transform: translateY(-1%);}
+    50%{transform: translateY(1%);}
+    100%{transform: translateY(-1%);}
+    
 }
 
 @media screen and (max-width: 450px){
