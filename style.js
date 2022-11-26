@@ -74,6 +74,7 @@ en_savoir_plus.addEventListener("click", () => {
 const items = document.querySelectorAll(".container_parcours")
 
 const longueur_items = items.length;
+console.log(longueur_items)
 
 const précédent = document.getElementById("fleche_left")
 const suivant = document.getElementById("fleche_right")
@@ -88,7 +89,10 @@ let fleche = 0
 précédent.addEventListener("click", ()=>{
     items[compteur].classList.remove("active")
     if (compteur > 0){
-        compteur -= 1 
+        compteur -= 1
+        suivant.classList.remove("disparition") 
+    } else if (compteur == 0){
+      précédent.classList.add("disparition")
     }
 
     console.log(compteur);
@@ -100,6 +104,10 @@ suivant.addEventListener("click", ()=>{
     items[compteur].classList.remove("active")
     if (compteur < longueur_items - 1){
         compteur += 1 
+        console.log(compteur)
+        précédent.classList.remove("disparition")
+    } else if (compteur == longueur_items-1){
+      suivant.classList.add("disparition")
     }
 
  
