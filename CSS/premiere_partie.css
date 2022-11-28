@@ -3,24 +3,23 @@
 /*Première Partie*/
 .first_article{
     position: relative;
-    display: grid;
+    display: flex;
     overflow-y: hidden;
-    grid-template-columns: 50vh 50vh;
-   
+    display: flex;
+   justify-content: center;
+
 }
 
 
 #image_moi{
-    position: relative;
-    z-index: 2;
+    margin-top: 15%;
     height: 700px;
-    margin-left:50vh;
-    transform: translateY(5%);
+   
 }
 
 
 .effet_ecriture {
-    margin: 60% 0 0 25%;
+    margin: 15% 0 0 5%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -100,12 +99,15 @@ h6 a{
     .first_article{
         display: flex;
         margin-top: -200px;
-        margin-left: -80px;
     }
 
     .container_bouton a{
         font-size: 25px;
         width: 55%;
         margin-left: -1px;
+    }
+
+    .effet_ecriture{
+        font-size: 15px;
     }
 }

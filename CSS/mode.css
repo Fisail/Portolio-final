@@ -1,0 +1,110 @@
+
+.bouton_scroll{
+
+    height: 150px;
+    width: 150px;
+    position: fixed;
+    z-index: 4;
+    right: 20px;
+    bottom: -60px;
+    cursor: pointer;
+    animation: scroll 1s ease infinite;
+}
+
+.mode{
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;  
+    margin: 0;
+    position: fixed;
+    bottom: 100px;
+    right: 15px;
+    
+}
+
+
+.mode a:nth-child(1){
+
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    z-index: 15;
+    cursor: pointer;
+    overflow-y: hidden;
+}
+
+.mode a:nth-child(2){
+
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    z-index: 15;
+    cursor: pointer;
+    overflow-y: hidden;
+}
+
+.mode img{
+    height: 60px;
+    width: 60px;
+    margin-top: -2px;
+    margin-left: -2px;
+   
+}
+
+#engrenage{
+
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    z-index: 4;
+    right: 15px;
+    bottom: 25px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    animation: scroll 1s ease infinite;
+}
+#scroll{
+
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px;
+}
+span{
+
+    color: rgb(119, 31, 163);
+    font-weight: 800;
+}
+
+@keyframes scroll {
+    0%{transform: translateY(-1%);}
+    50%{transform: translateY(1%);}
+    100%{transform: translateY(-1%);}
+    
+}
+
+@media screen and (max-width: 1200px){
+    .mode img:nth-child(1){
+        top: 78%;
+    }
+
+    .mode img:nth-child(2){
+        top: 68%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .bouton_scroll{
+       display: none;
+    }
+    
+}

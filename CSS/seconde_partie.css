@@ -1,9 +1,9 @@
 
 .second_article{
-    display: grid;
-    grid-template-columns: 700px 1fr;
+    display: flex;
+    justify-content: center;
     overflow-y: hidden;
-    margin-top: 250px;
+    margin-top: 200px;
 }
 
 .second_article  #titre{
@@ -15,8 +15,11 @@
 .second_article .texte  {
     margin: 100px 0 0 40px;
     font-size: 25px;
+    width: 70%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(27, 21, 42);
+    text-align: start;
+    
 }
 
 .second_article  span{
@@ -27,8 +30,9 @@
 
 .container_image{
     overflow-y: hidden;
-    margin: 100px 0 0 100px;
+    margin: 100px 0 0 0px;
     animation: animation 6s ease-in-out infinite;
+    width: 100%;
 }
 .container_image .sous_container{
     background-color: white;

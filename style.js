@@ -20,7 +20,7 @@ hamburger.addEventListener("click", () => {
 
 $(document).ready(function () {
   var typed = new Typed(".texte", {
-    strings: ["découvrir mon portfolio ?", " en savoir plus sur moi ?"],
+    strings: ["découvrir mon portfolio ?", "en savoir plus sur moi ?" ],
     typeSpeed: 110,
     backSpeed: 20,
     loop: true,
@@ -114,4 +114,18 @@ suivant.addEventListener("click", ()=>{
     console.log(compteur);
 
     items[compteur].classList.add("active")
+})
+
+
+const engrenage = document.getElementById("engrenage")
+const mode = document.querySelector(".mode")
+let valeur = false
+
+engrenage.addEventListener("click", ()=>{
+  valeur = !valeur
+  if (valeur == true){
+    mode.classList.add("disparition")
+  } else {
+    mode.classList.remove("disparition")
+  }
 })
