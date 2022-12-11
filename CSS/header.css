@@ -61,7 +61,10 @@ header a::after{
 
 header a:hover{
     color: purple;
-    border-bottom: 2px solid purple;
+}
+
+.contacter:hover{
+    color: white;
 }
 .contacter{
 
@@ -99,20 +102,23 @@ header a:hover{
         width: 100%;
         margin-left: 15%;
         visibility: hidden;
+        z-index: 2;
     }
 
     header a {
        margin: 10px;
        height: 60px;
+       background-color: wheat;
+       width: 72%;
+       border-radius: 10px;
+       text-align: center;
     }
 
     .contacter{
 
-        width: 200px;
+        width: 72%;
     }
 
-    .contacter li{
-        padding-left: 15px;
-    }
+  
 
 }
