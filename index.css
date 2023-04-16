@@ -43,3 +43,7 @@ body{
 
     background: linear-gradient(rgb(164, 129, 169), rgb(146, 64, 146))
 }
+
+.four_article h1 , .third_article h1, .parcours_scolaire h1{
+   text-align: center;
+}

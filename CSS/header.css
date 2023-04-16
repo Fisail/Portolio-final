@@ -47,21 +47,6 @@ header a{
 }
 
 
-header a::after{
-
-    content: "";
-    display: block;
-    position: absolute;
-    width: 0;
-    height: 3px;
-    margin: 0 auto;
-    background: rgb(119, 31, 163);
-    transition: width 0.2s ease-in-out;
-}
-
-header a:hover{
-    color: purple;
-}
 
 .contacter:hover{
     color: white;
@@ -85,6 +70,24 @@ header a:hover{
 
     visibility: visible;
 }
+
+
+
+
+header ul a::after, header ul a::before{
+
+    content: "";
+    display: block;
+    height: 2.5px;
+    background-color: purple;
+    transform: scale(0);
+    transition: transform 0.3s;
+}
+
+header ul a:hover::after {
+    transform: scale(1);    
+}
+  
 
 
 @media screen and (max-width:800px) {
@@ -118,6 +121,8 @@ header a:hover{
 
         width: 72%;
     }
+
+    
 
   
 
