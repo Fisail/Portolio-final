@@ -99,27 +99,37 @@ header ul a:hover::after {
         height: 60px;
     }
 
+    header{
+    
+        width: 100%;
+        z-index: 5;
+        background-color: white;
+    }
+
     ul{
         display: flex;
         flex-direction: column;
         width: 100%;
-        margin-left: 15%;
         visibility: hidden;
         z-index: 2;
+        margin-top: 40px;
     }
 
     header a {
+       position: relative;
        margin: 10px;
        height: 60px;
        background-color: wheat;
-       width: 72%;
+       width: 90%;
        border-radius: 10px;
        text-align: center;
+       z-index: 5;
+       transform: translateX(-2%);
     }
 
     .contacter{
 
-        width: 72%;
+        width: 90%;
     }
 
     

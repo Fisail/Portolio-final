@@ -134,5 +134,10 @@ div .attente{
         font-size: 35px;
     }
 
+    .parcours_scolaire h1{
+        font-size: 50px;
+        transform: translateX(-5%);
+    }
+
     
 }
