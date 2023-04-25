@@ -18,7 +18,7 @@ hamburger.addEventListener("click", () => {
       liste.classList.remove("visible");
       setTimeout(() => {
         first_article_pour_hamburger.style.marginTop = "-350px";
-      }, 800); 
+      }, 1050); 
     }
   } else{
     first_article_pour_hamburger.style.marginTop = "0px";
