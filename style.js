@@ -35,6 +35,8 @@ $(document).ready(function () {
   });
 });
 
+
+//HEADER 
 window.addEventListener("scroll", () => {
   if (window.scrollY > 20 && media420.matches) {
     liste.classList.add("visibleY");
@@ -45,14 +47,6 @@ window.addEventListener("scroll", () => {
 
 const langage = document.querySelectorAll(".box");
 
-
-window.addEventListener("scroll", () => {
-  langage.forEach((lang) => {
-    if (window.scrollY > 2500) {
-      lang.classList.add("apparition0");
-    }
-  });
-});
 
 
 
@@ -109,4 +103,48 @@ suivant.addEventListener("click", ()=>{
 
     items[compteur].classList.add("active")
 })
+
+
+/*********************CONCERNANT LES PROJETS */
+
+
+let tous_les_buttons = document.querySelectorAll(".project_button")
+
+
+let projets_personnels = document.querySelectorAll(".projet_personnel")
+let projets_scolaires = document.querySelectorAll(".projet_scolaire")
+
+
+
+
+tous_les_buttons.forEach((bouton) => {
+  bouton.addEventListener("click", () => {
+    var name = bouton.getAttribute("name");
+    
+    projets_scolaires.forEach((projet) => {
+      projet.classList.toggle("disparition_projets", name === "Projet_personnel");
+    });
+
+    projets_personnels.forEach((projet) => {
+      projet.classList.toggle("disparition_projets", name === "Projet_scolaire");
+    });
+  });
+});
+
+
+/*Pour vidéo*/
+
+let videos = document.querySelectorAll('video');
+console.log(videos);
+
+videos.forEach((video) => {
+  video.addEventListener('mouseover', () => {
+    console.log("ok");
+    video.play();
+  });
+  video.addEventListener('mouseout', () => {
+    video.pause();
+  });
+});
+
 

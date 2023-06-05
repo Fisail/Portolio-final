@@ -92,6 +92,7 @@ h6 a{
 }
 
 @media screen and (max-width:800px) {
+
     #image_moi{
         display: none;
     }
@@ -101,13 +102,17 @@ h6 a{
         margin-top: -200px;
     }
 
-    .container_bouton a{
+    .container_bouton a:nth-child(1), .container_bouton a:nth-child(2){
         font-size: 25px;
         width: 80%;
-        margin-left: -1px;
+        display: flex;
+        justify-content: center;
+        transform: translateX(-10%);
     }
 
     .effet_ecriture{
         font-size: 15px;
     }
+
+  
 }
