@@ -94,7 +94,7 @@ suivant.addEventListener("click", ()=>{
         compteur += 1 
         console.log(compteur)
         précédent.classList.remove("disparition")
-    } else if (compteur == 3){
+    } else if (compteur == 2){
       suivant.classList.add("disparition")
     }
 

@@ -25,7 +25,7 @@
             <ul>
                 <img src="Images/hamburger.png" id="hamburger">
                 <a href="#titre" class="presentation"><li>Ma présentation</li></a>
-                <a href="#parcours">Mon parcours scolaire</a>
+                <a href="#parcours">Mon parcours universitaire</a>
                 <a href="#titre2" class="competences"><li>Mes Compétences</li></a>
                 <a href="#projects" class="projets"><li>Mes projets</li></a>
                 <a href="#contact" class="contacter"><li>Me contacter ?</li></a>
@@ -39,7 +39,7 @@
             <h1>Prêt(e) à  <span class="texte"></span></h1>
             <div class="container_bouton">
                 <a href="#titre"><div class="boutton">En savoir plus </div></a>
-                <a href="#" target="_blank">Télécharger mon CV</a>
+                <a href="CV.pdf" target="_blank">Télécharger mon CV</a>
             </div>
         </div>
         <div>
@@ -87,51 +87,39 @@
     </article>    
    
     <section class="parcours_scolaire">
-        <h1 id="parcours"><span>M</span>on <span>P</span>arcours <span>S</span>colaire</h1><br>
+        <h1 id="parcours"><span>M</span>on <span>P</span>arcours <span>U</span>niversitaire</h1><br>
         <div class="container_parcours active">
-            <div>
-                <img src="Parcours_scolaire_image/mention-brevet-2-1024x685.jpg" alt="" >
-            </div>
-            <div class="parcours_write">
-                <div class="title_parcours">10 Juillet 2019</div>
-                <p>Obtention du brevet avec Mention Bien </p>
-            </div>
-        </div>
+            
 
-        <div class="container_parcours">
-            <div>
-                <img src="Parcours_scolaire_image/lycee-ste-marguerite-chambray-facade.jpg" alt="" >
-            </div>
-            <div class="parcours_write">
-                <div class="title_parcours">2019-2022</div>
-                <p>Proposition d'admission acceptée au lycée St Marguerite</p>
-                <ul>
-                    <li>BAC général</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="container_parcours">
-            <div>
-                <img  style="height: 400px" src="Parcours_scolaire_image/cadre-diplome-des-18-ans.webp" alt="" >
-            </div>
-            <div class="parcours_write">
-                <div class="title_parcours">11 Juillet 2022</div>
-                <p>Obtention du baccauléat général avec mention Bien + Européenne</p>
-            </div>
-        </div>
-
-        <div class="container_parcours">
             <div>
                 <img src="Parcours_scolaire_image/iut nantes.jfif" alt="" >
             </div>
             <div class="parcours_write">
-                <div class="title_parcours">2022 - ???</div>
-                <p>Proposition d'admission acceptée à l'IUT de Nantes</p>
+                <div class="title_parcours">2022 - 2025</div>
+                <p>BUT informatique à l'IUT de Nantes</p>
                 <ul>
-                    <li>BUT informatique </li>
                     <li>1ère année</li>
                 </ul>
+            </div>
+        </div>
+
+        <div class="container_parcours">
+            <div>
+                <img class="bac" style="height: 400px" src="Parcours_scolaire_image/diplome.jpeg" alt="" >
+            </div>
+            <div class="parcours_write">
+                <div class="title_parcours">11 Juillet 2022</div>
+                <p>Obtention du Baccauléat général avec mention Européenne</p>
+            </div>
+        </div>
+
+        <div class="container_parcours">
+            <div>
+                <img class = "brevet" src="Parcours_scolaire_image/brevet.png" alt="" >
+            </div>
+            <div style="transform: translateX(-10%)" class="parcours_write">
+                <div class="title_parcours">10 Juillet 2019</div>
+                <p>Obtention du Brevet des Collèges </p>
             </div>
         </div>
 
@@ -199,7 +187,7 @@
         <div class="button_projets">
             <button class="project_button" name="Tous_Projets">Tous les projets</button>
             <button class="project_button" name="Projet_personnel">Projets personnels</button>
-            <button class="project_button" name="Projet_scolaire">Projets scolaires</button>
+            <button class="project_button" name="Projet_scolaire">Projets universitaires</button>
         </div>
         <div class="container_project">
 
@@ -209,7 +197,7 @@
                     <h5><span>P</span>rojet <span>R</span>equiem</h5>
                     <p>Le <span>Projet Reventis</span> est un projet basé sur l'univers du jeu Minecraft. Dans ce serveur, la corruption gagne du terrain mettant les aventuriers en difficultés. Le seul remède à ce mal qui ronge le monde est un cristal, dont les aventuriers pourront se servir pour y mettre un terme.</p><br>
             
-                    <h8><span>Rôle :</span> Développeur web front-end</h8><br>
+                    <h8><span>Rôle :</span> Développeur web front-end</h8>
                     <div class="presentation_langages">
                         <h8><span>Langages informatiques :</span></h8>
                         <img src="Langages/HTML.png" id="logo_info">
@@ -230,15 +218,14 @@
 
                     <h5><span>P</span>rojet <span>P</span>articules</h5>
                     <p>Mon <span>premier</span> projet scolaire réalisé à l'IUT de Nantes. <br> C'était un travail de groupe et notre objectif était de concevoir un <span>programme de particules</span> dans lequel l'utilisateur pouvait choisir le <span>comportement</span> des particules (gravité, vitesses, point d'apparition,...) grâce à un fichier JSON. </p><br>
-            
-                   
+
                     <div class="presentation_langages">
                         <h8 ><span>Langages informatiques :</span></h8>
                         <img src="Langages/GO.png" id="logo_info">
                     </div>
-                    <a href ="#"><div class="acces_site" style="background-color: black;">
+                    <a href ="https://github.com/Fisail/SAE_Golang" target="_blank" ><div class="acces_site" style="background-color: black;">
                     <img src="Images/open.png" id="open_logo">
-                    <h8 style="color: white;">Lien inexistant pour l'instant ...</h8>
+                    <h8 style="color: white;">Github des particules</h8>
                     </div></a>
                 </div>
             </div>
@@ -255,9 +242,9 @@
                         <img src="Langages/CSS.png" id="logo_info">
                         <img src="Langages/JS.png" id="logo_info">
                     </div>
-                    <a href ="#"><div class="acces_site">
+                    <a href ="https://github.com/Fisail/Site_Web_Moustache" target="_blank"><div class="acces_site">
                     <img src="Images/open.png" id="open_logo">
-                    <h8>Lien inexistant pour l'instant ...</h8>
+                    <h8>Github du site Moustache</h8>
                     </div></a>
                 </div>
             </div>

@@ -16,7 +16,9 @@
     font-size: 75px;
 }
 
-
+.grid{
+    padding-left: 25px;
+}
 
 .second_article .texte  {
     margin: 100px 0 0 40px;

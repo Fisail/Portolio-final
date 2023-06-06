@@ -48,11 +48,15 @@
     transition-duration: 0.2s;
 }
 
+.container_bouton{
+    transform: translateX(-5%);
+}
 .first_article a:nth-child(1){
     display: inline-block;
     margin-top: 100px;
     background-color: rgb(119, 31, 163);
-    width: 230px;
+    text-align: center;
+    width: 280px;
     padding: 15px;
     text-decoration: none;
     border-radius: 8px;
@@ -66,9 +70,10 @@
     margin-left: 50px;
     text-decoration: none;
     display: inline-block;
+    text-align: center;
     margin-top: 100px;
     background-color: transparent;
-    width: 320px;
+    width: 380px;
     padding: 15px;
     border: 2px solid rgb(119, 31, 163);;
     border-radius: 8px;
