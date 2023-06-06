@@ -94,7 +94,7 @@ suivant.addEventListener("click", ()=>{
         compteur += 1 
         console.log(compteur)
         précédent.classList.remove("disparition")
-    } else if (compteur == longueur_items-1){
+    } else if (compteur == 3){
       suivant.classList.add("disparition")
     }
 
@@ -103,6 +103,32 @@ suivant.addEventListener("click", ()=>{
 
     items[compteur].classList.add("active")
 })
+
+
+
+/***SOLUTION EN COURS CONCERNANT LE CARROUSEL */
+/*
+
+précédent.addEventListener("click", ()=>{
+    console.log(compteur)
+    items[compteur].classList.remove("active")
+    if (compteur == 1){
+      suivant.classList.remove("disparition")
+      items[compteur-1].classList.add("active")
+      précédent.classList.add("disparition")
+      console.log("ok")
+      
+    } else{
+      compteur -= 1 
+
+      suivant.classList.remove("disparition")
+      items[compteur].classList.add("active")
+
+    }
+
+})
+
+*/
 
 
 /*********************CONCERNANT LES PROJETS */

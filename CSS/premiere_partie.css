@@ -13,7 +13,8 @@
 
 #image_moi{
     margin-top: 15%;
-    height: 700px;
+    transform: translateX(-10%);
+    height: 560px;
    
 }
 
@@ -83,6 +84,7 @@ h6{
 
     margin-top: 30px;
     overflow-y: hidden;
+    font-weight: 300;
 }
 
 h6 a{

@@ -35,7 +35,10 @@ body{
     font-family: "Alegreya";
     src: url("Alegreya-VariableFont_wght.ttf");
 }
-
+@font-face {
+    font-family: "test";
+    src: url("ecritures/MacondoSwashCaps-Regular.ttf") ;
+}
 ::-webkit-scrollbar{
     width: 11px;
 }
@@ -46,4 +49,9 @@ body{
 
 .four_article h1 , .third_article h1, .parcours_scolaire h1{
    text-align: center;
+}
+
+
+.second_article h1, .third_article  #titre2, .four_article h1, .parcours_scolaire h1, footer h1{
+    font-family: "test";
 }
