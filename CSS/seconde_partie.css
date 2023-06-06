@@ -27,6 +27,7 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(27, 21, 42);
     text-align: justify;
+
     
 }
 
@@ -34,6 +35,7 @@
 
     color: rgb(119, 31, 163);
     font-weight: 800;
+
 }
 
 .container_image{
@@ -48,7 +50,16 @@
     height: 350px;
     width: 350px;
     border-radius: 8px;
+
+
 }
+
+
+.container_image .sous_container span{
+    font-family: "test";
+
+}
+
 
 .container_image .sous_container img{
 
@@ -58,6 +69,8 @@
     margin-top: 0;
     padding: 0;
 }
+
+
 
 .container_image .second_container img{
 

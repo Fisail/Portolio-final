@@ -88,7 +88,7 @@ overflow-y: hidden;
     margin-top: -12px;
 }
 #box_particules span{
-    color: blueviolet;
+    color: rgb(167, 105, 226);
 }
 
 
@@ -179,6 +179,7 @@ h8{
     padding: 10px;
     margin-left: 15%;
     overflow-y: hidden;
+    text-align: center;
 
     
 }

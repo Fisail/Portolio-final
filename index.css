@@ -52,6 +52,6 @@ body{
 }
 
 
-.second_article h1, .third_article  #titre2, .four_article h1, .parcours_scolaire h1, footer h1, .button_projets button{
+.second_article h1,.third_article, .third_article  #titre2, .four_article h1, .parcours_scolaire h1, footer h1, .button_projets button{
     font-family: "test";
 }

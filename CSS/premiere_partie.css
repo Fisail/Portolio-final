@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
 /*Première Partie*/
 .first_article{
@@ -83,13 +84,12 @@
     cursor: pointer;
 }
 
-
-
 h6{
 
     margin-top: 30px;
     overflow-y: hidden;
     font-weight: 300;
+    font-family:"Poppins"
 }
 
 h6 a{

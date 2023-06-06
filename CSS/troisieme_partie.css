@@ -1,8 +1,15 @@
 
+@font-face {
+    font-family: "test";
+    src: url("ecritures/MacondoSwashCaps-Regular.ttf") ;
+}
+
+
 .third_article{
     position: relative;
     overflow-y: hidden;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 .third_article  #titre2{
@@ -60,14 +67,20 @@
 
     margin-left: 10px;
     text-align: center;
+
 }
 
 .container_front, .container_inter{
     border-right: 1px solid rgb(169, 21, 243);
+    font-family: "test";
+
 }
 
 .third_article p{
     font-size: 18px;
+
+
+
 }
 .third_article h4{
 
