@@ -192,5 +192,5 @@ document.addEventListener("DOMContentLoaded", () => {
       setTimeout(() => {
           loader.remove();
       }, 1500);
-  }, 5000);
+  }, 4000);
 });
