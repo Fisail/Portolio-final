@@ -174,3 +174,23 @@ videos.forEach((video) => {
 });
 
 
+
+
+//*********LOADERRRRR */
+
+document.addEventListener("DOMContentLoaded", () => {
+  setTimeout(() => {
+      let loader = document.querySelector('#loader');
+      let loaderContainer = document.querySelector('#loader-container');
+      let main = document.querySelector('main');
+      
+      loader.classList.add('hidden'); // Ajouter la classe 'hidden' pour cacher le loader avec une transition
+      loaderContainer.classList.add('hidden'); // Ajouter la classe 'hidden' pour déplacer le logo avec une transition
+      main.classList.remove('cache_main');
+      
+      // Attendre la fin de la transition avant de supprimer le loader
+      setTimeout(() => {
+          loader.remove();
+      }, 1500);
+  }, 5000);
+});

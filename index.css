@@ -6,6 +6,8 @@
 @import url("CSS/footer.css");
 @import url("CSS/page_scolaire.css");
 @import url("CSS/mode.css");
+@import url("CSS/loader.css");
+
 
 
 *{
@@ -55,3 +57,12 @@ body{
 .second_article h1,.third_article, .third_article  #titre2, .four_article h1, .parcours_scolaire h1, footer h1, .button_projets button{
     font-family: "test";
 }
+
+
+/****Caché le main***/
+
+.cache_main{
+    display: none;
+}
+
+

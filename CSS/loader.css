@@ -1,0 +1,57 @@
+/******LOADER****/
+
+
+#loader {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    gap: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    background: white;
+    overflow-y: hidden;
+
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* Ajout de transitions pour l'opacité et la transformation */
+}
+
+#loader.hidden {
+    opacity: 0;
+    transform: translate(-100%, -100%); /* Déplacer le loader vers le coin supérieur gauche */
+}
+
+#loader-container{
+    overflow-y: hidden;
+
+}
+#loader-container img {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 1s ease-out; /* Ajout d'une transition pour la transformation */
+    animation-name: rotation;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    overflow-y: hidden;
+}
+
+#loader-container.hidden img {
+    transform: translate(-100%, -100%); /* Déplacer le logo vers le coin supérieur gauche */
+}
+
+
+@keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
