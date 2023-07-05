@@ -133,11 +133,11 @@ div .attente{
 }
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
     .container_parcours.active{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 90%;
     }
 
     .title_parcours{

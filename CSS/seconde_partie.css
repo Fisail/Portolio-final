@@ -127,27 +127,37 @@
     100%{transform: translateX(2%);}
 }
 
-@media screen and (max-width:959px) {
-    .second_article{
+@media screen and (max-width: 959px) {
+    .second_article {
         display: flex;
         flex-direction: column;
+
     }
 
-    .first_container{
+    .first_container {
         margin-left: 0px;
+        max-width: 100%;
+
     }
 
-    .container_image{
+    .container_image {
         margin-left: 2%;
         animation: none;
     }
 
-    .second_article  #titre{
+    .second_article #titre {
         margin: 80px 0 0 40px;
         font-size: 45px;
     }
-    
+
+    .test {
+        max-width: 80%;
+        margin-left: 8%;
+    }
+
+  
 }
+
 
 @media screen and (min-width:960px) and (max-width:1300px){
     .second_article{
