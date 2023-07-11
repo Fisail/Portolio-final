@@ -191,6 +191,6 @@ document.addEventListener("DOMContentLoaded", () => {
       // Attendre la fin de la transition avant de supprimer le loader
       setTimeout(() => {
           loader.remove();
-      }, 1500);
-  }, 4000);
+      }, 2000);
+  }, 6000);
 });
