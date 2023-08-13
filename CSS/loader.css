@@ -45,20 +45,6 @@
     transform: translate(-100%, -100%); /* Déplacer le logo vers le coin supérieur gauche */
 }
 
-@media screen and (max-width: 800px) {
-    #loader-container img  {
-      top: 25%;
-      left: 25%;
-      max-width: 80%;
-      max-height: 80%;
-    }
-
-    
-
-    
-  }
-  
-  
 
 
 @keyframes rotation {

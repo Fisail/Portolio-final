@@ -183,7 +183,7 @@ document.addEventListener("DOMContentLoaded", () => {
       let loader = document.querySelector('#loader');
       let loaderContainer = document.querySelector('#loader-container');
       let main = document.querySelector('main');
-      
+   
       loader.classList.add('hidden'); // Ajouter la classe 'hidden' pour cacher le loader avec une transition
       loaderContainer.classList.add('hidden'); // Ajouter la classe 'hidden' pour déplacer le logo avec une transition
       main.classList.remove('cache_main');
@@ -193,4 +193,5 @@ document.addEventListener("DOMContentLoaded", () => {
           loader.remove();
       }, 2000);
   }, 6000);
+
 });

@@ -133,7 +133,7 @@ div .attente{
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     .container_parcours.active{
         display: flex;
         flex-direction: column;
@@ -147,7 +147,7 @@ div .attente{
 
     .parcours_scolaire h1{
         margin: 80px 0 0 0px;
-        font-size: 45px;
+        font-size: 60px;
     }
 
     
