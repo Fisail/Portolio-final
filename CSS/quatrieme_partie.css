@@ -44,6 +44,7 @@ overflow-y: hidden;
     width: 400px;
     height: 700px;
     margin-left: 7px;
+    padding: 0 20px;
 }
 
 #image_project{
@@ -244,6 +245,11 @@ h8{
     }
 }
 
+
+#langage2 {
+    height: 40px;
+    transform: translateY(0%);
+}
 
 
 /****Effet disparition**/
