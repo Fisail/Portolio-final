@@ -3,6 +3,7 @@
     margin-top: 250px;
     overflow-y: hidden;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
    
 }
 
@@ -11,6 +12,16 @@
 
 .four_article  #projects{
     font-size: 75px;
+
+}
+
+
+.projet_scolaire{
+    display: flex;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 10%;
+    border: 2px solid purple;
 
 }
 
@@ -38,101 +49,32 @@ overflow-y: hidden;
     overflow-y: hidden;
     flex-direction: column;
     justify-content: center;
-    border: 2px solid rgb(119, 31, 163);
-    background-color: white;
-    border-radius: 10px;
-    width: 400px;
-    height: 700px;
+    width: 100%;
+    height:100%;
     margin-left: 7px;
     padding: 0 20px;
-}
-
-#image_project{
-
-    height: 150px;
-    width: 200px;
-    overflow-y: hidden;
-
-
-    margin: 0 30px 0 22%;
-    background-size: cover;
-}
-
-
-
-
-/***CONCERNE LE PREMIER PROJET SCOLAIRE*********/
-
-.particules{
-    height: 350px;
-    width: 300px;
-   transform: translateY(-15%);
-    overflow-y: hidden;
-    border-radius: 10%;
-
-
-    margin: 0 30px 0 15%;
-    background-size: cover;
-}
-
-
-#box_particules{
-    height: 780px;
-    width: 450px;
-
-    border-radius: 2%;
-
+    flex-wrap: wrap;
 
 }
 
-#box_particules #logo_info{
-    margin-top: -12px;
+
+
+
+
+
+
+.image_projet{
+    border-right: 2px solid purple;
+    overflow: hidden;
+    padding: 2rem 2rem;
 }
-#box_particules span{
-    color: rgb(167, 105, 226);
-}
-
-
-
-#box_particules h5{
-    margin-top: -50px;
-    font-size: 40px;
-    text-align: center;
-    overflow-y: hidden;
-
-}
-
-#box_particules #logo_info{
-    transform: translateY(-5%);
-}
-
-
-
-/**************BOX MOUSTACHE PROJET*/
-
-
-#box_moustache video{
-    padding: 0 15px 0 15px;
-    height: 200px;
-
-
-}
-
-#box_moustache h5{
-    margin-top: 50px;
-    font-size: 40px;
-    text-align: center;
-    overflow-y: hidden;
-
-}
-
 
 
 /*/********************************/
 
 h5{
     margin-top: 50px;
-    font-size: 40px;
+    font-size: 300%;
     text-align: center;
     overflow-y: hidden;
 
@@ -149,7 +91,7 @@ h8{
 .box_project p{
 
     margin: 45px 10px 20px 10px;
-    font-size: 15px;
+    font-size: 120%;
     overflow-y: hidden;
     text-align: justify;
     padding: 8px;
@@ -158,9 +100,13 @@ h8{
 .presentation_langages{
 
     display: flex;
-    flex-direction: row;
-    overflow-y: hidden;
-    margin-top: 20px;
+    align-items: center;
+    font-size: 110%;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+
+
 
    
 }
@@ -169,24 +115,26 @@ h8{
     height: 60px;
     transform: translateY(-30%);
 }
-.acces_site{
-    z-index: 18;
-    display: flex;
-    align-items: center;
-    background-color: white;
-    border: 2px solid rgb(119, 31, 163);
-    border-radius: 10px;
-    width: 250px;
+.acces_site {
+    color: black;
     padding: 10px;
-    margin-left: 15%;
-    overflow-y: hidden;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid purple;
+
     text-align: center;
-
-    
+    transition: background-color 0.3s ease;
+    margin: 3% 20% 3% 20%;
 }
-#open_logo{
 
-    height: 30px;
+.acces_site:hover {
+    background-color: rgb(176, 70, 176);
+    color: white;
+}
+
+#open_logo {
+    width: 20px;
+    margin-right: 5px;
 }
 
 .four_article a {
@@ -194,6 +142,8 @@ h8{
     text-decoration: none;
     text-align: center;
     color: black;
+    overflow: hidden;
+
 }
 
 /***********************BUTTON PROJECTS******************/
@@ -227,6 +177,22 @@ h8{
 .project_button:focus{
     background-color: rgb(119, 31, 163);
     color : white;
+}
+
+
+#cadre_langage{
+        padding: 1rem 1rem;
+        margin-bottom: 1.5rem;
+        margin-left: 1.5rem;
+        margin-top: 2rem;
+        border-radius: 5px;
+        border: 1px solid rgb(119, 31, 163);
+        font-weight: 600;
+        color: rgb(119, 31, 163);
+        width: 40%;
+        flex-wrap: wrap;
+
+    
 }
 
 @media screen and (max-width: 800px) {
