@@ -76,59 +76,32 @@ let fleche = 0
 
 précédent.addEventListener("click", ()=>{
     items[compteur].classList.remove("active")
-    if (compteur > 0){
-        compteur -= 1
-        suivant.classList.remove("disparition") 
-    } else if (compteur == 0){
+    if (compteur == 1){
+       compteur -= 1
       précédent.classList.add("disparition")
     }
-
-    console.log(compteur);
+    if (compteur > 1){
+        compteur -= 1
+        suivant.classList.remove("disparition") 
+    }  
     items[compteur].classList.add("active")
 })
 
 
 suivant.addEventListener("click", ()=>{
     items[compteur].classList.remove("active")
-    if (compteur < longueur_items - 1){
-        compteur += 1 
-        console.log(compteur)
-        précédent.classList.remove("disparition")
-    } else if (compteur == 2){
+    if (compteur == longueur_items-2){
+      compteur += 1 
       suivant.classList.add("disparition")
-    }
-
- 
-    console.log(compteur);
-
+      
+    } 
+    if (compteur < longueur_items-1){
+        compteur += 1 
+        précédent.classList.remove("disparition")
+    }  
     items[compteur].classList.add("active")
 })
 
-
-
-/***SOLUTION EN COURS CONCERNANT LE CARROUSEL */
-/*
-
-précédent.addEventListener("click", ()=>{
-    console.log(compteur)
-    items[compteur].classList.remove("active")
-    if (compteur == 1){
-      suivant.classList.remove("disparition")
-      items[compteur-1].classList.add("active")
-      précédent.classList.add("disparition")
-      console.log("ok")
-      
-    } else{
-      compteur -= 1 
-
-      suivant.classList.remove("disparition")
-      items[compteur].classList.add("active")
-
-    }
-
-})
-
-*/
 
 
 /*********************CONCERNANT LES PROJETS */
@@ -137,8 +110,10 @@ précédent.addEventListener("click", ()=>{
 let tous_les_buttons = document.querySelectorAll(".project_button")
 
 
-let projets_personnels = document.querySelectorAll(".projet_personnel")
-let projets_scolaires = document.querySelectorAll(".projet_scolaire")
+let projets_premiere_annee = document.querySelectorAll(".projet_premiere_annee")
+let projets_deuxieme_annee = document.querySelectorAll(".projet_deuxieme_annee")
+let projets_troisieme_annee = document.querySelectorAll(".projet_troisieme_annee")
+
 
 
 
@@ -147,12 +122,16 @@ tous_les_buttons.forEach((bouton) => {
   bouton.addEventListener("click", () => {
     var name = bouton.getAttribute("name");
     
-    projets_scolaires.forEach((projet) => {
-      projet.classList.toggle("disparition_projets", name === "Projet_personnel");
+    projets_premiere_annee.forEach((projet) => {
+      projet.classList.toggle("disparition_projets", name != "projet_premiere_annee");
     });
 
-    projets_personnels.forEach((projet) => {
-      projet.classList.toggle("disparition_projets", name === "Projet_scolaire");
+    projets_deuxieme_annee.forEach((projet) => {
+      projet.classList.toggle("disparition_projets", name!= "projet_deuxieme_annee");
+    });
+
+    projets_troisieme_annee.forEach((projet) => {
+      projet.classList.toggle("disparition_projets", name != "projet_troisieme_annee");
     });
   });
 });

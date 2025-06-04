@@ -53,21 +53,7 @@
 
 }
 
-.container_parcours ul{
-    display: flex;
-    flex-direction: column;
-    line-height: 30px;
-    color: rgb(85, 77, 121);
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-right: 5px;
-    font-family: "test";
 
-}
-.container_parcours ul li {
-    font-family: "test";
-
-}
 
 .parcours_write{
 
@@ -151,15 +137,4 @@ div .attente{
     }
 
     
-}
-
-
-.container_parcours .bac{
-    transform: translateX(-15%);
-}
-
-
-.container_parcours .brevet{
-    height: 400px;
-    transform: translateX(-15%);
 }
