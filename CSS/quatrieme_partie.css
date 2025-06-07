@@ -10,10 +10,11 @@
 
 
 
-.four_article  #projects{
+.four_article #experiences,
+#projects {
     font-size: 75px;
-
 }
+
 
 
 .projet_scolaire{
@@ -64,9 +65,12 @@ overflow-y: hidden;
 
 
 .image_projet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-right: 2px solid purple;
     overflow: hidden;
-    padding: 2rem 2rem;
+    padding: 35px;
 }
 
 
@@ -77,6 +81,7 @@ h5{
     font-size: 300%;
     text-align: center;
     overflow-y: hidden;
+    margin-left: 10px;
 
 }
 
@@ -116,6 +121,8 @@ h8{
     transform: translateY(-30%);
 }
 .acces_site {
+    display: flex;
+    justify-content: center;
     color: black;
     padding: 10px;
     margin-top: 10px;
@@ -217,6 +224,10 @@ h8{
     transform: translateY(0%);
 }
 
+
+#role_size{
+    font-size: 25px;
+}
 
 /****Effet disparition**/
 
