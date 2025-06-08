@@ -41,6 +41,7 @@ ul{
 }
 
 
+
 header a{
     
     display: inline-block;
@@ -50,18 +51,13 @@ header a{
     color: black;
     text-decoration: none; 
     padding: 15px;
-
-
+    padding-bottom: 60px;
     
 }
-
-
-
 .contacter:hover{
     color: white;
 }
 .contacter{
-
     background-color: rgb(119, 31, 163);
     border-radius: 8px;
     color: white;
@@ -84,7 +80,6 @@ header a{
 
 
 header ul a::after, header ul a::before{
-
     content: "";
     display: block;
     height: 2.5px;
@@ -98,8 +93,22 @@ header ul a:hover::after {
 }
   
 
+.contacter::after, .contacter::before{
+    content: "";
+    display: block;
+    height: 2.5px;
+    background-color: white;
+    transform: scale(0);
+    transition: transform 0.3s;
+}
 
-@media screen and (max-width:800px) {
+.contacter::hover::after {
+    transform: scale(1);    
+}
+
+
+
+@media screen and (max-width:820px) {
     #logo{
         position: absolute;
         left: 0;
@@ -130,25 +139,8 @@ header ul a:hover::after {
         margin-left: 8%;
     }
 
-    header a {
-       position: relative;
-       margin: 10px;
-       height: 60px;
-       background-color: wheat;
-       width: 90%;
-       border-radius: 10px;
-       text-align: center;
-       z-index: 5;
-       transform: translateX(-2%);
-    }
-
-    .contacter{
-
-        width: 90%;
-    }
-
-    
-
   
-
+    header ul li a {
+        padding-bottom: 60px;
+    }
 }

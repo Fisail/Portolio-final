@@ -236,3 +236,12 @@ h8{
 }
 
 
+@media screen and (max-width:800px) {
+
+   .image_projet {
+        border-right: none;
+        border-bottom: 2px solid purple;
+   }
+
+}
+

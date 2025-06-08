@@ -168,5 +168,5 @@ window.addEventListener("load", () => {
 
     setTimeout(() => {
         loader.remove();
-    }, 1000);
+    }, 100000);
 });

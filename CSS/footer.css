@@ -36,53 +36,23 @@ footer img{
 }
 
 
-
-
-
-footer a:hover{
-
-    color: rgb(119, 31, 163);
-
-}
-
-.CP{
-    margin-top: 40px;
-
-}
-
-
-
-.reseau div , .reseau2{
+.reseau {
     display: flex;
+    align-items: center;
 }
-
-.reseau a , .reseau2 {
-
+.reseau a {
     text-decoration: none;
     color: black;
-  
 }
 
-.reseau p{
+footer a:hover{
+    color: rgb(119, 31, 163);
+    text-decoration: underline;
 
-    margin-top: 30px;
 }
 
-.linkd{
-    margin-left: 20px;
-}
-.reseau img{
-    margin-top: -10px;
-}
-
-.redimensionne{
-    height: 50px;
-}
-
-#linkdln{
-
-    height: 60px;
-    margin: 10px 0 0 20px;
+.redimensione img, .redimensione p {
+    margin-left: 25px;
 }
 
 @media screen and (max-width:800px) {
@@ -91,7 +61,12 @@ footer a:hover{
         flex-direction: column;
     }
 
-    .contact:nth-child(2){
+    .contact:nth-child(2), .mention_footer{
         margin-top: 50px;
     }
+
+    .CP{
+        margin-top: 20px;
+    }
+
 }

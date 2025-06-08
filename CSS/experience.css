@@ -20,3 +20,13 @@
     margin-top: 100px;
     overflow-y: hidden;
 }
+
+@media screen and (max-width:800px) {
+
+   .projet_experience, .projet_scolaire {
+    display: flex;
+    flex-direction: column;
+   }
+
+  
+}
