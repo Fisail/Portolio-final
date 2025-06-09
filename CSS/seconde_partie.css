@@ -134,7 +134,10 @@
 
     }
 
-    .first_container {
+    .first_container, .container_image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         margin-left: 0px;
         max-width: 100%;
 
